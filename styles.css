@@ -1,0 +1,471 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+
+
+
+
+}
+
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    color: white;
+    background-image: url(images/heroMain.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}
+
+
+.alinhamentoTextoHero {
+
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.alinhamentoTextoHero h1 {
+    margin-top: 60vh;
+    font-family: 'Aboreto', Arial, Helvetica, sans-serif;
+    font-size: 5rem;
+
+}
+
+.alinhamentoTextoHero h2 {
+
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+.estiloRosa {
+    background-color: #111;
+    padding: 2px;
+}
+
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    padding: 1rem;
+    background-color: #11111141;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+header li {
+    font-family: 'Aboreto', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+
+}
+
+.experiencia {
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(240, 248, 205);
+    ;
+}
+
+
+.placeholderImagem img {
+    height: 110vh;
+    width: auto;
+}
+
+.imgMoodboard01 {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+
+}
+
+.imgMoodboard02 {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.imgMoodboard03 {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+
+.imgMoodboard04 {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.moodboard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    padding: 4rem;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(240, 248, 205);
+}
+
+.formulario label {
+    font-family: 'Aboreto', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+.formulario input {
+    font-family: 'Aboreto', Arial, Helvetica, sans-serif;
+    font-size: 0.85rem;
+    width: 500px;
+    height: 40px;
+    padding: 4px;
+}
+
+.formulario option {
+    font-family: 'Aboreto', Arial, Helvetica, sans-serif;
+    font-size: 0.85rem;
+    width: 500px;
+}
+
+.formulario select {
+    font-family: 'Aboreto', Arial, Helvetica, sans-serif;
+    font-size: 0.85rem;
+    width: 500px;
+    height: 40px;
+    padding: 4px;
+}
+
+.customizarSeletor {
+    font-family: 'Aboreto', Arial, Helvetica, sans-serif;
+    font-size: 0.85rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0.6rem;
+}
+
+.formulario {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    height: 110vh;
+    width: 100%;
+    gap: 0.6rem;
+    padding: 4rem;
+
+    background-color: rgb(240, 248, 205);
+
+}
+
+
+.textinho {
+    margin-top: 5rem;
+}
+
+.textinho p {
+
+    font-family: 'Aboreto', Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.textinho h2 {
+    font-family: 'Aboreto', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    margin-top: 3rem;
+    color: rgb(240, 248, 205);
+}
+
+button {
+    height: 40px;
+    width: 250px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 2px;
+    font-weight: 300;
+    font-family: 'Aboreto', Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    width: 500px;
+    cursor: pointer;
+}
+
+footer p {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+
+}
+
+footer {
+    padding: 2.8rem;
+    background-color: rgb(240, 248, 205);
+    height: 100%;
+}
+
+@media (max-width: 1023px) {
+
+    .hero {
+        background-position: center;
+        background-attachment: scroll;
+    }
+
+    .alinhamentoTextoHero {
+        padding: 2rem;
+    }
+
+    .alinhamentoTextoHero h1 {
+        font-size: 4.5rem;
+    }
+
+    .alinhamentoTextoHero h2 {
+        font-size: 1.6rem;
+    }
+
+    header ul {
+        gap: 1.5rem 2rem;
+        padding: 1rem;
+    }
+
+    header li {
+        font-size: 0.9rem;
+    }
+
+    .experiencia {
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .placeholderImagem {
+        flex: 1 1 50%;
+        min-width: 0;
+    }
+
+    .placeholderImagem img {
+        width: 100%;
+        height: 100%;
+        min-height: 350px;
+        object-fit: cover;
+    }
+
+    .moodboard {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1rem;
+        width: 100%;
+        padding: 2rem;
+        height: auto;
+        margin-bottom: 0;
+    }
+
+    .imgMoodboard01,
+    .imgMoodboard02,
+    .imgMoodboard03,
+    .imgMoodboard04 {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 4 / 3;
+        object-fit: cover;
+        margin-top: 1rem;
+        margin-bottom: 0;
+    }
+
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        height: auto;
+        min-height: 70vh;
+        padding: 3rem 2rem;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+        gap: 0.6rem;
+    }
+
+    .formulario input,
+    .formulario select,
+    button {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .textinho {
+        margin-top: 3rem;
+    }
+
+    .textinho p {
+        font-size: 1.6rem;
+    }
+
+    .textinho h2 {
+        font-size: 1.8rem;
+        margin-top: 2rem;
+    }
+
+    footer {
+        width: 100%;
+        height: auto;
+        min-height: 0;
+        padding: 2rem;
+        box-sizing: border-box;
+    }
+
+    footer p {
+        font-size: 1rem;
+        overflow-wrap: anywhere;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .hero {
+        background-position: center;
+        background-attachment: scroll;
+    }
+
+    .alinhamentoTextoHero {
+        padding: 1.25rem;
+    }
+
+    .alinhamentoTextoHero h1 {
+        font-size: 4rem;
+
+    }
+
+    .alinhamentoTextoHero h2 {
+        font-size: 1.2rem;
+    }
+
+    header ul {
+        gap: 0.6rem 1rem;
+        padding: 0.75rem 0.5rem;
+    }
+
+    header li {
+        font-size: 0.75rem;
+    }
+
+    .experiencia {
+        flex-direction: column;
+        height: 100%;
+
+
+    }
+
+    .placeholderImagem {
+        flex: 1 1 auto;
+        width: 100%;
+    }
+
+    .placeholderImagem img {
+        height: auto;
+        min-height: 0;
+        width: 100%;
+        max-height: 320px;
+        object-fit: cover;
+
+    }
+
+
+
+    .moodboard {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1rem;
+        padding: 2rem;
+        height: auto;
+        margin-bottom: 0;
+    }
+
+
+    .imgMoodboard01,
+    .imgMoodboard02,
+    .imgMoodboard03,
+    .imgMoodboard04 {
+        height: auto;
+        aspect-ratio: 4 / 3;
+        margin-top: 3rem;
+
+    }
+
+    .formulario {
+
+
+        min-height: 70vh;
+
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    form {
+        max-width: 100%;
+    }
+
+    .formulario input,
+    .formulario select,
+    button {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .textinho {
+        margin-top: 2rem;
+    }
+
+    .textinho h2 {
+        margin-top: 1.5rem;
+    }
+
+    footer {
+        width: 100%;
+        min-height: 100%;
+        padding: 2rem;
+        box-sizing: border-box;
+    }
+
+    footer p {
+        font-size: 1rem;
+
+    }
+}

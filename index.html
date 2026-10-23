@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="images/icon.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aboreto&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Make.me</title>
+</head>
+
+<body>
+    <main>
+
+        <section class="hero">
+
+            <header>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#experiencia">Experiência</a></li>
+                    <li><a href="#moodboard">MoodBoard</a></li>
+                </ul>
+            </header>
+
+            <div class="alinhamentoTextoHero">
+                <h1>MAKE.ME</h1>
+                <h2><span class="estiloRosa">Gerador de Ideias de Maquiagem </span></h2>
+            </div>
+
+
+
+        </section>
+
+        <section class="experiencia" id="experiencia">
+
+            <div class="formulario">
+                <div class="textinho">
+
+                    <h2><span class="estiloRosa">Bem-Vinda</span></h2>
+                    <p>Vamos descobrir a make <br>mais adequada ao seu <br> momento?</p>
+                </div>
+
+                <form action="" id="formulario01">
+                    <label for="number">Digite sua Idade:</label>
+                    <input type="number" name="number" id="number" min="0" value="0" >
+
+                    <label for="estilo">Escolha seu Estilo Favorito:</label>
+                    <select name="estilo" id="estilo" class="customizarSeletor">
+                        <option value="iniciar" disabled selected>Selecionar</option>
+                        <option value="glam">Glam</option>
+                        <option value="clean">Clean</option>
+                        <option value="classica">Clássica</option>
+                        <option value="goth">Goth</option>
+                        <option value="colorida">Colorida</option>
+
+                    </select>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+
+
+            <div class="placeholderImagem"><img src="images/firstOption.jpeg" alt="" id="imagem" class="imagem"></div>
+        </section>
+
+        <section class="moodboard" id="moodboard">
+
+            <div><img src="images/firstOption00.jpeg" alt="" id="imgMoodboard01" class="imgMoodboard01"></div>
+            <div><img src="images/firstOption02.jpeg" alt="" id="imgMoodboard02" class="imgMoodboard02"></div>
+            <div><img src="images/firstOption.jpeg" alt="" id="imgMoodboard03" class="imgMoodboard03"></div>
+            <div><img src="images/firstOption03.jpeg" alt="" id="imgMoodboard04" class="imgMoodboard04"></div>
+
+        </section>
+
+        <footer>
+            <p>✿ Obrigada por visitar este projeto ✿</p>
+            <p>Lívia Helena</p>
+            <p>UX/UI Design | Front-end</p>
+            <p>© 2026</p>
+        </footer>
+
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
