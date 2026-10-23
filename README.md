@@ -5,12 +5,12 @@ Você pode ver tudo funcionando através deste link:
 
 ## O que tem aqui:
 
-📝 Formulário e eventos: o evento submit escutado com addEventListener, e o event.preventDefault() para a página não recarregar ao enviar.
-🔎 Seletores e leitura de dados: querySelector com seletores no formato tag#id, e o .value para ler o que a pessoa escolheu ou digitou. Como o .value sempre devolve texto, a idade passa pelo Number.
-🧭 Condicionais: a cadeia if / else if / else que decide a faixa etária (criança, adolescente, adulta e idosa), com as faixas encaixadas na ordem certa.
-🔀 switch / case: cada função escolhe a imagem conforme o estilo (glam, clean, goth, clássica ou colorida), com break em cada caso.
-🧩 Funções com parâmetros: crianca, adolescente, adulto, idoso e moodboardDeEstilos recebem os elementos e o estilo como parâmetros, em vez de depender de variáveis soltas.
-🖼️ Manipulação do DOM: a propriedade src das imagens é trocada pelo JavaScript, e é isso que faz a página reagir.
+- 📝 Formulário e eventos: o evento submit escutado com addEventListener, e o event.preventDefault() para a página não recarregar ao enviar.
+- 🔎 Seletores e leitura de dados: querySelector com seletores no formato tag#id, e o .value para ler o que a pessoa escolheu ou digitou. Como o .value sempre devolve texto, a idade passa pelo Number.
+- 🧭 Condicionais: a cadeia if / else if / else que decide a faixa etária (criança, adolescente, adulta e idosa), com as faixas encaixadas na ordem certa.
+- 🔀 switch / case: cada função escolhe a imagem conforme o estilo (glam, clean, goth, clássica ou colorida), com break em cada caso.
+- 🧩 Funções com parâmetros: crianca, adolescente, adulto, idoso e moodboardDeEstilos recebem os elementos e o estilo como parâmetros, em vez de depender de variáveis soltas.
+- 🖼️ Manipulação do DOM: a propriedade src das imagens é trocada pelo JavaScript, e é isso que faz a página reagir.
 
 ## Como funciona:
 - A pessoa escolhe um estilo e informa a idade no formulário.
