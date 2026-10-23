@@ -1,7 +1,6 @@
 # 💜 Moodboard de Estilos: Formulário, Condicionais e DOM
-
-Repositório de estudos de JavaScript, criado por Lívia Helena, com foco em lógica, código e experiência do usuário. Neste projeto, um formulário recebe um estilo e uma idade, e a página responde trocando as imagens na tela, montando um moodboard personalizado.
-Você pode ver tudo funcionando através deste link:
+Neste projeto, um formulário recebe um estilo e uma idade, e a página responde trocando as imagens na tela, montando um moodboard personalizado.
+- Você pode ver tudo funcionando através deste link:
 
 ## O que tem aqui:
 
